@@ -41,9 +41,10 @@
 }
 
 .semi-transparent-border{
+    margin-top: 25%;
     padding: 30px;
-    background-color: rgba(255,255,255,0.7);
-    border: 15px solid rgba(255,0,0,0.5);
+    background-color: rgba(255,255,255,0.8);
+    border: 15px solid rgba(87, 86, 181, 0.5);
 
     -moz-background-clip: padding;
     -webkit-background-clip: padding;
