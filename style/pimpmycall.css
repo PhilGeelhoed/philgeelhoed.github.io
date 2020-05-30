@@ -1,0 +1,51 @@
+/**
+* Pimpmycall stylesheet
+
+* @author Philly
+* @version 0.1
+*/
+
+@media screen and (min-width: 641px) {
+    body{
+        background-image: url("../img/cover 3 availabe on.jpg");
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: left top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    body{
+        background-image: url("../img/Mobile.jpg") !important;
+        background-size: auto 100%;
+        background-repeat: no-repeat;
+        background-position: left top;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+.background {
+    width: 100%;
+    height: 100%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.semi-transparent-border{
+    padding: 30px;
+    background-color: rgba(255,255,255,0.7);
+    border: 15px solid rgba(255,0,0,0.5);
+
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding;
+    background-clip: padding-box;
+}
