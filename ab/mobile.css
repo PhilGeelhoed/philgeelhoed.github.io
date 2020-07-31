@@ -67,6 +67,7 @@ p {
 .home-background {
   height: 600px;
   background-position: center;
+  top: 0;
 }
 
 .diagonal-bar {
