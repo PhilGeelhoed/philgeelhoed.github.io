@@ -1,0 +1,223 @@
+.container {
+  max-width: 320px;
+}
+
+/* Common elements */
+
+h2 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+
+
+/* Header */
+.header.scrolled {
+  height: 100px;
+}
+
+#nav-transparent {
+  display: flex;
+  flex-direction: column;
+}
+
+.branding img {
+  margin-top: -5px;
+}
+
+.scrolled .branding img {
+  margin-top: 30px;
+}
+
+.branding-text {
+  margin-top: 0;
+}
+
+.branding-title {
+  font-size: 30px;
+}
+
+.scrolled .branding-title {
+  font-size: 22px;
+}
+
+.branding-slogan {
+  font-size: 18px;
+}
+
+.scrolled .branding-slogan {
+  font-size: 14px;
+}
+
+.branding img {
+  width: 75px;
+  height: 75px;
+}
+
+.menu-column {
+  display: none;
+}
+
+
+/* Home section */
+.home-background {
+  height: 600px;
+  background-position: center;
+}
+
+.diagonal-bar {
+  top: 500px;
+  height: 430px;
+}
+
+.home-section {
+  margin-top: 500px;
+}
+
+
+/* Product section */
+.video-wrapper {
+  left: -200px;
+  width: 800px;
+}
+
+#product-icons {
+  flex-direction: column;
+  margin-top: -100px;
+  padding: 30px 0;
+}
+
+#product-icons h3 {
+  font-size: 30px;
+  margin-top: 0;
+}
+
+.column img {
+  width: 200px;
+}
+
+.column.right {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+#product-icons .middle {
+  margin: 30px auto;
+}
+
+.middle {
+  width: 210px;
+  height: 175px;
+}
+
+#product-section h2 {
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.product-row {
+  display: block;
+  width: 100%
+}
+
+.product-row img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.product-row.even img {
+  margin-right: 0;
+  margin-left: 20px;
+  float: right;
+}
+
+.product-row.even {
+}
+
+
+.products-row{
+  height: 1100px;
+  display: block;
+}
+
+.products-row img{
+  margin-top: 10px;
+}
+
+
+
+#product-section p {
+  margin-top: 5px;
+  float: none;
+  width: 100%;
+}
+
+#machines p{
+  margin-top: 5px;
+  float: none;
+  width: 100%
+}
+
+#product-section .disclaimer {
+  font-size: 15px;
+  margin-bottom: 60px;
+}
+
+.pand-image {
+  height: 500px;
+  background-size: 300%;
+  background-position: 50% 0%;
+}
+
+/* Footer section */
+#footer-section {
+  padding-top: 30px;
+}
+
+.gmap-canvas {
+  height: 250px;
+  margin-bottom: 20px;
+}
+
+.contact-columns {
+  flex-direction: column;
+  width: 320px;
+  margin: auto;
+}
+
+.contact-columns .left, .contact-columns .right {
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.contact-columns h4 {
+  font-size: 21px;
+  margin-bottom: 5px;
+}
+
+.contact-columns p {
+  font-size: 17px;
+}
+
+.copyright {
+  flex-direction: column;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.copyright p {
+  font-size: 15px;
+}
+
+.copyright hr {
+  border-width: 1px;
+  margin: 7px auto;
+}

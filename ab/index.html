@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>A.R. de Jong Metaalbewerking</title>
+    <link rel="stylesheet" href="./master.css" type="text/css">
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="mobile.css" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="shortcut icon" type="image/png" href="img/flavicon.png">
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+      $(window).on('scroll', function(){
+        if ($(window).scrollTop()){
+          $('.header').addClass('scrolled');
+        } else {
+          $('.header').removeClass('scrolled');
+        }
+      })
+    </script>
+  </head>
+
+  </head>
+  <body>
+
+    <div class="diagonal-bar"></div>
+    <div class="home-background parallax-background" id="parallax-background"></div>
+    <div class="header">
+      <div id="nav-transparent" class="container">
+        <div class="branding">
+          <a href="#">
+            <img src="./img/logo.png" alt="Logo" width="176">
+          </a>
+          <div class="branding-text">
+            <h1 class="branding-title">A.R. DE JONG METAALBEWERKING</h1>
+            <h5 class="branding-slogan">gespecialiseerd in omrandingen en goten voor de betonindustrie</h5>
+          </div>
+        </div>
+        <div class="menu-column">
+          <div class="language-buttons">
+            Taal:
+            <a class="nl-button active" href="#">
+              NL
+            </a>
+            <a class="en-button" href="en/index.html">
+              EN
+            </a>
+          </div>
+
+          <div class="menu" id="menu">
+            <a class="menu-item scroll active" id="home" href="#">Home</a>
+            <a class="menu-item scroll" id="product-menu" href="#product-icons">Producten</a>
+            <a class="menu-item scroll" id="machine-menu" href="#machines">Machines</a>
+            <a class="menu-item scroll" id="contact-menu" href="#footer-section">Contact</a>
+          </div>
+
+        </div>
+      </div>
+
+      <div id="out-of-screen"></div>
+    </div>
+    <div class="home-section regular">
+      <div class="container">
+        <h2>Over ons</h2>
+        <p>Wij zijn een metaalbewerkingsbedrijf gespecialiseerd in het produceren van instortdelen voor de betonindustrie zoals: stalen goten, lijsten, roosters en hoekomrandingen voor afwaterings-systemen. Tevens leveren wij ook (bescherm)hoekranden ten behoeve van industriële vloerplaten. Natuurlijk kunt u ook voor andere metaalproducten bij ons terecht.</p>
+      </div>
+    </div>
+
+
+
+    <div id="set-height"></div>
+
+    <div id="product-section">
+      <div class="video-wrapper parallax-video">
+<!--        <video id="kantband-video" autobuffer preload autoplay loop muted poster="./img/kanban frame.png" >-->
+<!--          <source src="./img/kantband_small2mb.mp4" type="video/mp4">-->
+<!--        </video>-->
+        <video id="kantband-video" autobuffer preload autoplay loop muted poster="./img/kanban frame.png" >
+          <source src="./img/kantband_small1mb.mp4" type="video/mp4">
+        </video>
+        <div id="video-gradient"></div>
+      </div>
+
+
+      <div class="container regular">
+        <div id="product-icons">
+            <div class="column left">
+              <img src="./img/icons/balk.png" alt="Balk" width="252">
+              <h3>Producten</h3>
+            </div>
+            <img class="middle" src="./img/icons/kantbant machine.png" alt="Kanban machine" width="296" height="247">
+            <div class="column right">
+              <img src="./img/icons/metalen plaat.png" alt="Metalen plaat" width="252">
+              <h3>Op Maat</h3>
+            </div>
+        </div>
+        <div class="producten" id="producten">
+          <h2 class="onze-producten">Onze producten</h2>
+          <div class="product-row odd">
+            <img src="img/product1.jpg" alt="Product 1">
+            <p>Om uw producten zo efficiënt en te produceren maken we gebruik van een moderne machines en met onze jarenlange werkervaring zijn wij klaar om aan uw vraag te voldoen.</p>
+          </div>
+          <div class="product-row even">
+            <img src="img/product3.jpg" alt="Product 2">
+            <p>Voor vragen of informatie over onze producten kunt u ons bellen of mailen, of kom langs want u bent altijd welkom om kennis te maken met ons bedrijf. De koffie staat altijd klaar!</p>
+
+          </div>
+          <div class="product-row odd">
+            <img src="img/product2.jpg" alt="Product 3">
+            <p>Ook voor producten op maat of bijzondere verzoeken kunt u ons altijd benaderen, in overleg kunnen we kijken of we u van dienst kunnen zijn.</p>
+          </div>
+        </div>
+        <div class="practical-products">
+          <h2>Onze producten in de praktijk</h2>
+          <h4>Hier enkele voorbeelden van eerdere leveringen</h4>
+          <div class="products-row">
+            <div class="product-left product-column">
+              <img src="img/product-vliegtuig-small.jpg" alt="Ingestort metaal bij treinspoor">
+            </div>
+            <div class="product-middle product-column">
+              <img src="img/product-trein.jpg" lat="Instorting op vliegveld">
+            </div>
+            <div class="product-right product-column">
+              <img src="img/product-vrachtwagen.jpg" alt="Levering met vrachtwagen">
+            </div>
+          </div>
+        </div>
+        <div class="machines" id="machines">
+          <div class="producten">
+            <h2 class="onze-producten">Onze machines</h2>
+            <h4>Hier enkele machines waarmee wij mee werken</h4>
+            <div class="product-row odd">
+              <img src="img/machine2.jpg" alt="Kanband machine" title="Kantband Machine">
+              <p>Deze kantband krachtpatser zorgt voor perfecte buigingen van metaal, waardoor we elke hoek die u maar wenst kunnen maken</p>
+            </div>
+            <div class="product-row even ">
+              <img src="img/machine5.jpg" alt="machine2">
+              <p>Deze staalblazer zorgt voor perfect ronde cirkels. Ik weet zeker dat jij nog nooit zulke mooie stale cirkels hebt gezien als deze machine! Moet je 'm zien gaan dan!</p>
+
+            </div>
+            <div class="product-row odd">
+              <img src="img/machine8.jpg" alt="Machine 3">
+              <p>Dit is ook een mooi ding hey! Hiermee maken we al het staal zo mooi glanzend. Twee drukken op de knop en het glanst zo mooi dat het bijna pijn doet aan je ogen.</p>
+            </div>
+          </div>
+        </div>
+
+
+        <p class="disclaimer" id="disclaimer">Alle leveringen geschieden overeenkomstig de algemene leverings- en betalingsvoorwaarden uitgegeven door de Koninklijke Metaalunie, gedeponeerd ter griffie van de rechtbank te Rotterdam op 1 januari 2008.</p>
+      </div>
+    </div>
+
+    <div class="pand-section">
+      <div class="pand-image" id="parallax-background2"></div>
+    </div>
+
+
+
+    <div id="footer-section">
+      <div class="container">
+        <div id="gmap-canvas"></div>
+        <script src="js/map.js" charset="utf-8"></script>
+        <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8cogoACV9iKosMp5cj_jMhBH7YKmV6-Y&callback=initMap" async defer></script> -->
+        <iframe height="500" class="gmap-canvas" src="https://maps.google.com/maps?q=goudstraat%209%20schoonhoven&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+      </div>
+
+      <div class="contact-columns">
+        <div class="left">
+          <h4>Contact</h4>
+          <p>Goudstraat 9</p>
+          <p>2872 ZS Schoonhoven</p>
+          <p>Tel: +31 (0)182 381614</p>
+          <p>Email: info@ardejongmetaalbewerking.nl</p>
+        </div>
+        <div class="right">
+          <h4>Bedrijfsgegevens</h4>
+<!--          <p>IBAN: NL92ABNA0404357954</p>-->
+<!--          <p>BIC: ABNANL2A</p>-->
+          <p>K.v.K-nr: 68390912</p>
+          <p>BTW-nr: NL857421281B01</p>
+          <div class="metaalunie">
+            <img src="img/metal.jpg">
+          </div>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>© 2020 A.R. de Jong Metaalbewerking</p>
+        <hr>
+        <p>Ontwerp door <a href="https://no-ego.be/">Phil Geelhoed</a> en <a href="https://www.jendusseljee.nl">Jen Dusseljee</a>.</p>
+      </div>
+    </div>
+<!--    Sciptinggggggg-->
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="js/menubar.js"></script>
+<!--    <script src="js/video-scroll.js"></script>-->
+<!--    <script src="js/nav2.js"></script>-->
+    <script type="text/javascript">
+      $(document).ready(function() {
+
+        var scrollLink = $(".scroll");
+        // Active link switching
+        $(window).scroll(function() {
+          if(scrollLink.length){
+            let scrollbarLocation = $(this).scrollTop();
+            scrollLink.each(function () {
+              let sectionOffset = $(this).offset().top - 40
+
+              if(scrollbarLocation>1888 && scrollbarLocation <3555){
+                $('#product-menu').addClass('active');
+                $('#product-menu').siblings().removeClass('active')
+              } else if(scrollbarLocation > 3555 && scrollbarLocation < 5555){
+                $('#machine-menu').addClass('active');
+                $('#machine-menu').siblings().removeClass('active')
+              }
+              else if(scrollbarLocation >= 5555){
+                $('#contact-menu').addClass('active');
+                $('#contact-menu').siblings().removeClass('active')
+              }else {
+                $('#home').addClass('active');
+                $('#home').siblings().removeClass('active')
+              }
+            })
+          }
+        })
+      })
+    </script>
+
+
+  </body>
+</html>

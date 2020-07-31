@@ -1,0 +1,49 @@
+/*Stylesheet for A.R. de jong metaalbewerking desktop site*/
+
+html{
+    overflow: hidden;
+}
+
+body {
+    height: 100vh;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.parallax::before{
+    width:100vw;
+    height: 100vh;
+    top:0;
+    left:0;
+    position: absolute;
+    z-index: -1;
+    transform: translateZ(-1px) scale(2);
+}
+
+.parallax{
+    width: 100vw;
+    height: 100vh;
+    padding-top: 20vh;
+    box-sizing: border-box;
+    transform-style: preserve-3d;
+}
+
+.regular{
+    z-index: 2;
+    position: relative;
+}
+
+#set-height {
+    display: block;
+}
+
+#kantband-video{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+
+}
+
