@@ -68,6 +68,7 @@ p {
   height: 600px;
   background-position: center;
   top: 0;
+  background-position-y: 0px !important;
 }
 
 .diagonal-bar {
