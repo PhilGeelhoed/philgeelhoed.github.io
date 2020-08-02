@@ -65,10 +65,9 @@ p {
 
 /* Home section */
 .home-background {
+  top: 0;
   height: 600px;
   background-position: center;
-  top: 0;
-  background-position-y: 0px !important;
 }
 
 .diagonal-bar {

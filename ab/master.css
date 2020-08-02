@@ -24,6 +24,7 @@ body {
 
 .container p{
   text-align: justify;
+  /*text-align: left;*/
 }
 
 
@@ -306,6 +307,8 @@ li.active {
   justify-content: space-between;
   padding: 28px 60px;
   margin-top: -160px;
+  zoom: 0.7;
+  width: 80%;
 }
 
 #product-icons h3 {
@@ -336,6 +339,7 @@ li.active {
 #product-section h2 {
   margin-top: 100px;
   text-align: justify;
+
 }
 
 .onze-producten{
@@ -430,7 +434,7 @@ li.active {
 }
 
 .practical-products h4 {
-  fontsize: 35px;
+  font-size: 25px;
   color: #818181;
   text-align: center;
   margin-bottom: 50px;
@@ -442,10 +446,21 @@ li.active {
 }
 
 .machines h4{
-  fontsize: 35px;
+  font-size: 25px;
   color: #818181;
-  margin-left: 10px;
+  margin-left: 3px;
   margin-bottom: 50px;
+}
+
+.machines p{
+  font-size: 30px;
+}
+
+.machines .even p{
+  text-align: right;
+}
+.machines .odd p{
+  text-align: left;
 }
 
 .machines img{
