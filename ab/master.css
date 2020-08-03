@@ -17,7 +17,19 @@ body {
   overflow-x: hidden;
 }
 
-.container {
+@media only screen and (max-width: 1700px){
+  body{
+    zoom: 0.92;
+  }
+}
+
+@media only screen and (max-width: 1400px){
+  body{
+    zoom: 0.85;
+  }
+}
+
+  .container {
   max-width: 1160px;
   margin: auto;
 }
@@ -50,10 +62,15 @@ p {
   padding-top: 35px;
   width: 100vw;
   top: 0;
-  right: 0;
   position: fixed;
   transition: 0.7s;
   z-index: 100;
+}
+
+@media only screen and (max-width: 1400px){
+  .header {
+    width: 118vw;
+  }
 }
 
 .header.scrolled {
@@ -88,14 +105,14 @@ p {
 }
 
 .branding-title {
-  font-size: 47px;
+  font-size: 45px;
   color: #007944;
   font-variation-settings: "wght" 100, "wdth" 75;
   transition: 0.7s;
 }
 
 .scrolled .branding-title{
-  font-size: 45px;
+  font-size: 44px;
 }
 
 .branding-slogan {
@@ -118,6 +135,7 @@ p {
 
 .menu {
   margin-top: 50px;
+  margin-left: 50px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -126,14 +144,14 @@ p {
 
 .scrolled .menu{
   color: #007A45 !important;
-  font-size: 32px;
+  font-size: 28px;
   margin-top: 35px;
 }
 
 .menu-item {
   display: inline-block;
   color: #FCFFFE;
-  font-size: 35px;
+  font-size: 30px;
   font-variation-settings: "wght" 100, "wdth" 75;
   text-decoration: none;
   height: 35px;
@@ -309,6 +327,12 @@ li.active {
   margin-top: -160px;
   zoom: 0.7;
   width: 80%;
+}
+
+@media only screen and (max-width: 1400px){
+  #product-icons{
+    zoom: 0.6;
+  }
 }
 
 #product-icons h3 {
