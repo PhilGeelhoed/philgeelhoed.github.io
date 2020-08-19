@@ -282,9 +282,10 @@ li.active {
   }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1300px) {
   .diagonal-bar {
-    top: 1150px;
+    height: 700px;
+    top: 1300px;
   }
 }
 
